@@ -14,7 +14,7 @@ public class Trashbin : MonoBehaviour, IInteractable
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        TrashbinName ?? = Global_Helper.GenerateUniqueID(gameObject); // Generate a unique ID for the trashbin if not already set
+        TrashbinName ??= Global_Helper.GenerateUniqueID(gameObject); // Generate a unique ID for the trashbin if not already set
     }
 
 
@@ -36,7 +36,6 @@ public class Trashbin : MonoBehaviour, IInteractable
         if (itemPrefab != null)
         {
             GameObject DroppedItem = Instantiate(itemPrefab, transform.position + Vector3.down, Quaternion.identity);
-            DroppedItem.GetComponent<BounceEffect>().startBounce();
         }
     }
     private void SetChecked(bool value)
