@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 317cb0c1e497c8047b65955f7e51c029
+guid: c5a6bfe69f54d9143b3d6c998dd51848
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2889340153601910541
-    second: make-pixel-art-ui-design_0
+      213: -5316379799586165597
+    second: Gemini_Generated_Image_3ykhyg3ykhyg3ykh_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,12 +37,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: make-pixel-art-ui-design_0
+      name: Gemini_Generated_Image_3ykhyg3ykhyg3ykh_0
       rect:
         serializedVersion: 2
-        x: 657
+        x: 424
         y: 0
-        width: 23
-        height: 107
+        width: 1497
+        height: 470
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,20 +115,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f8194d407007e7d0800000000000000
-      internalID: -2889340153601910541
+      spriteID: 3acaa9a5dbc6836b0800000000000000
+      internalID: -5316379799586165597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: make-pixel-art-ui-design_1
+      name: Gemini_Generated_Image_3ykhyg3ykhyg3ykh_1
       rect:
         serializedVersion: 2
-        x: 183
-        y: 219
-        width: 23
-        height: 23
+        x: 281
+        y: 807
+        width: 1489
+        height: 439
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a40dfe4263c44d46b58ebcd745445d8
-      internalID: 403470508
+      spriteID: 715be1fb738de3f48a57ff0e62b44efe
+      internalID: -2059842990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: make-pixel-art-ui-design_2
+      name: Gemini_Generated_Image_3ykhyg3ykhyg3ykh_2
       rect:
         serializedVersion: 2
-        x: 297
-        y: 210
-        width: 88
-        height: 64
+        x: 394
+        y: 738
+        width: 69
+        height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 383a8c472869ed3439ea95150a2e2b89
-      internalID: 1974848362
+      spriteID: 57d0780879bb9d54d888c45d7d7d3175
+      internalID: -130479984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: make-pixel-art-ui-design_3
+      name: Gemini_Generated_Image_3ykhyg3ykhyg3ykh_3
       rect:
         serializedVersion: 2
-        x: 46
-        y: 229
-        width: 85
-        height: 84
+        x: 1584
+        y: 738
+        width: 68
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 733e0d9b57d227d4e87b11b3015795fe
-      internalID: 2011386776
+      spriteID: ab9c127ee3afe5d49ad150029a5486d3
+      internalID: 1379726296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: make-pixel-art-ui-design_4
+      name: Gemini_Generated_Image_3ykhyg3ykhyg3ykh_4
       rect:
         serializedVersion: 2
-        x: 102
-        y: 333
-        width: 209
-        height: 76
+        x: 393
+        y: 851
+        width: 976
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff6677096bf6af64fb70825aa1ea5ca2
-      internalID: 674784828
+      spriteID: 2bac725b49714a1428c2ffcfa8e96e8d
+      internalID: -1242792898
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ca4f1fa3fad421547a68d0025d2de875
+    spriteID: 75a3dcd53c13b884384d9ba0a37dd699
     internalID: 0
     vertices: []
     indices: 
@@ -223,11 +223,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      make-pixel-art-ui-design_0: -2889340153601910541
-      make-pixel-art-ui-design_1: 403470508
-      make-pixel-art-ui-design_2: 1974848362
-      make-pixel-art-ui-design_3: 2011386776
-      make-pixel-art-ui-design_4: 674784828
+      Gemini_Generated_Image_3ykhyg3ykhyg3ykh_0: -5316379799586165597
+      Gemini_Generated_Image_3ykhyg3ykhyg3ykh_1: -2059842990
+      Gemini_Generated_Image_3ykhyg3ykhyg3ykh_2: -130479984
+      Gemini_Generated_Image_3ykhyg3ykhyg3ykh_3: 1379726296
+      Gemini_Generated_Image_3ykhyg3ykhyg3ykh_4: -1242792898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

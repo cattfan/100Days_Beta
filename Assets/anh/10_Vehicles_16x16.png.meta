@@ -2433,10 +2433,10 @@ TextureImporter:
       name: 10_Vehicles_16x16_71
       rect:
         serializedVersion: 2
-        x: 175
+        x: 221
         y: 1960
-        width: 50
-        height: 102
+        width: 4
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2477,10 +2477,10 @@ TextureImporter:
       name: 10_Vehicles_16x16_73
       rect:
         serializedVersion: 2
-        x: 351
-        y: 1951
-        width: 50
-        height: 112
+        x: 413
+        y: 1947
+        width: 1
+        height: 1
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2609,13 +2609,13 @@ TextureImporter:
       name: 10_Vehicles_16x16_79
       rect:
         serializedVersion: 2
-        x: 143
-        y: 1775
+        x: 158
+        y: 1727
         width: 108
         height: 143
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 82}
       customData: 
       outline: []
       physicsShape: []
@@ -4017,10 +4017,10 @@ TextureImporter:
       name: 10_Vehicles_16x16_143
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1285
-        width: 225
-        height: 119
+        x: 261
+        y: 1238
+        width: 1
+        height: 1
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6525,8 +6525,8 @@ TextureImporter:
       name: 10_Vehicles_16x16_257
       rect:
         serializedVersion: 2
-        x: 163
-        y: 1486
+        x: 162
+        y: 1467
         width: 42
         height: 18
       alignment: 0
@@ -6548,9 +6548,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 164
-        y: 1534
+        y: 1504
         width: 42
-        height: 19
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6618,7 +6618,7 @@ TextureImporter:
         width: 2
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6627,6 +6627,226 @@ TextureImporter:
       bones: []
       spriteID: 94c9537d17520ff4b94591e26b010da8
       internalID: 29610773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Vehicles_16x16_262
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1549
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92abb98494166a4b8a8402c726df762
+      internalID: -77690906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Vehicles_16x16_263
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 2008
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97304cd54ad4d134687984282c916e32
+      internalID: 1943040461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Vehicles_16x16_264
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1890
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa144cae415a41640890a26e29b07277
+      internalID: -1769019596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Vehicles_16x16_265
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1891
+        width: 17
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0cf6807cc993b418e94c977cb86266
+      internalID: 234287290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Vehicles_16x16_266
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1347
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ea40443665adf4382f3bbdddd7a9d1
+      internalID: 753886756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Vehicles_16x16_267
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1340
+        width: 6
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98387de88672dd478924f76b7e33fbe
+      internalID: -1137281814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Vehicles_16x16_268
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1330
+        width: 2
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dc5f5a262e3da428f79ba7ef532e81
+      internalID: -991389033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Vehicles_16x16_269
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1330
+        width: 2
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2259fbd3df582b479d858699e1fe9ca
+      internalID: 95826792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Vehicles_16x16_270
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1329
+        width: 26
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8d9d392f00fb141856bde20f2734f7
+      internalID: 200523478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Vehicles_16x16_271
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1352
+        width: 26
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7dfa535b9585144b0fdcd2acb3c8e7
+      internalID: -643685724
       vertices: []
       indices: 
       edges: []
@@ -6827,7 +7047,17 @@ TextureImporter:
       10_Vehicles_16x16_26: -2024452238367314401
       10_Vehicles_16x16_260: 1301341735
       10_Vehicles_16x16_261: 29610773
+      10_Vehicles_16x16_262: -77690906
+      10_Vehicles_16x16_263: 1943040461
+      10_Vehicles_16x16_264: -1769019596
+      10_Vehicles_16x16_265: 234287290
+      10_Vehicles_16x16_266: 753886756
+      10_Vehicles_16x16_267: -1137281814
+      10_Vehicles_16x16_268: -991389033
+      10_Vehicles_16x16_269: 95826792
       10_Vehicles_16x16_27: -2125475995606025454
+      10_Vehicles_16x16_270: 200523478
+      10_Vehicles_16x16_271: -643685724
       10_Vehicles_16x16_28: 5726811663574652644
       10_Vehicles_16x16_29: -3557589364904488678
       10_Vehicles_16x16_3: -3812348470758410558
