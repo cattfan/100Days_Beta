@@ -36,7 +36,6 @@ public class Trashbin : MonoBehaviour, IInteractable
         if (itemPrefab != null)
         {
             GameObject DroppedItem = Instantiate(itemPrefab, transform.position + Vector3.down, Quaternion.identity);
- 
         }
     }
     private void SetChecked(bool value)
