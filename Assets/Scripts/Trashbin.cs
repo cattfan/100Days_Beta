@@ -17,7 +17,6 @@ public class Trashbin : MonoBehaviour, IInteractable
         TrashbinName ??= Global_Helper.GenerateUniqueID(gameObject); // Generate a unique ID for the trashbin if not already set
     }
 
-
     public void Interact()
     {
         if (!CanInteract()) return;
@@ -40,9 +39,12 @@ public class Trashbin : MonoBehaviour, IInteractable
     }
     private void SetChecked(bool value)
     {
-        if(isChecked == value)
+        isChecked = value;
+
+        if (isChecked && CheckedBin != null)
         {
-            GetComponent<SpriteRenderer>().sprite = CheckedBin; // Change the sprite to indicate it has been checked
+            GetComponent<SpriteRenderer>().sprite = CheckedBin;
+            Debug.Log("Trashbin sprite changed!");
         }
     }
 }
