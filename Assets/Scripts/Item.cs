@@ -38,6 +38,13 @@ public class Item : MonoBehaviour
     public int maxStackSize = 1;
     public int currentAmount = 1;
 
+    [Header("Music")]
+    public AudioManagement audioManagement;
+
+    private void Awake()
+    {
+        audioManagement = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManagement>();
+    }
     void Start()
     {
         // Đảm bảo object có tag "Item"
@@ -149,7 +156,7 @@ public class Item : MonoBehaviour
 
         // Gọi OnCollected để xử lý logic thu thập
         OnCollected();
-
+        audioManagement.PlaySFX(audioManagement.PickupItem);
         // Destroy item sau khi pickup
         Destroy(gameObject);
     }
