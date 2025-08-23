@@ -6,6 +6,7 @@ public class Trashbin : MonoBehaviour, IInteractable
 {
     public bool isChecked { get; private set; } // Flag to check if the trashbin is interactable
     public string TrashbinName { get; private set; } // Name of the trashbin
+    public GameObject FailInteractIcon; // Icon to show when interaction fails
 
     [Header("Random Item Settings")]
     public GameObject[] itemPrefabs; // Array các prefab item có thể spawn
@@ -27,11 +28,18 @@ public class Trashbin : MonoBehaviour, IInteractable
 
     private Sprite originalSprite; // Sprite gốc của trashbin
     private Coroutine resetCoroutine; // Reference đến coroutine reset
+    [Header("Music")]
+    public AudioManagement audioManagement;
 
+    private void Awake()
+    {
+        audioManagement = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManagement>();
+    }
     void Start()
     {
         TrashbinName ??= Global_Helper.GenerateUniqueID(gameObject); // Generate a unique ID for the trashbin if not already set
 
+        FailInteractIcon.SetActive(false); // Ẩn icon fail lúc đầu
         // Lưu sprite gốc
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer != null)
@@ -60,7 +68,9 @@ public class Trashbin : MonoBehaviour, IInteractable
 
     private void CheckTrashbin()
     {
-        SetChecked(true); // Set the trashbin as checked
+        SetChecked(true);// Set the trashbin as checked
+
+        
 
         // Bắt đầu countdown để reset
         StartResetTimer();
@@ -68,12 +78,21 @@ public class Trashbin : MonoBehaviour, IInteractable
         // Random chance to spawn items
         if (Random.Range(0f, 1f) <= spawnChance)
         {
+            audioManagement.PlaySFX(audioManagement.SuccessTrashbinInteract);
             SpawnRandomItems();
         }
         else
         {
-            Debug.Log("Trashbin is empty!");
+            audioManagement.PlaySFX(audioManagement.FailTrashbinInteract);
+            FailInteractIcon.SetActive(true);
+            StartCoroutine(HideFailIconAfterDelay(1f)); // Hide the icon after 2 seconds
         }
+    }
+
+    private IEnumerator HideFailIconAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        FailInteractIcon.SetActive(false);
     }
 
     private void SpawnRandomItems()
