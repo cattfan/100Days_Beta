@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10654b8a137fb9a4289568848195b664, type: 3}
+  m_Name: xe xanh
+  m_EditorClassIdentifier: 
+  vehicleID: 1
+  vehicleName: xe xanh
+  icon: {fileID: 2063525346348601064, guid: 2dd6fe560c7a3504cb0f932c39858ba2, type: 3}
+  speed: 10
+  price: 100000
